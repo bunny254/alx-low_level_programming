@@ -7,7 +7,8 @@
  * Return: Always 0 (Success)
  */
 
-int main(void){
+int main(void)
+{
 	int n;
 
 	srand(time(0));
@@ -25,5 +26,6 @@ int main(void){
 	{ 
 		printf("%i is negative\n",n);
 	}
+
 	return (0);
 }
